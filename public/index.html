@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente de IA</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            Asistentes de IA
+        </div>
+        <div class="chat-messages">
+            <!-- Mensajes aparecerán aquí -->
+        </div>
+        <div class="chat-input">
+            <select id="modelo">
+                <option value="deepseek-r1:1.5b">Model: deepseek-r1:1.5b</option>
+                <option value="karen">Model: Karen-personalizado</option>
+                <option value="TinyLlama">Model: TinyLlama</option>
+            </select>
+            <input type="text" placeholder="Escribe un mensaje...">
+            <button id="send">Enviar</button>
+            <button id="clear">Limpiar</button>
+            <button id="stop">Detener</button>
+        </div>
+    </div>
+
+  
+    <script type="module" src="main.js"></script>
+</body>
+</html>
