@@ -1,6 +1,8 @@
 Descripción del Proyecto: Asistente de IA Local
 Este proyecto es un Asistente de Inteligencia Artificial local desarrollado en JavaScript que se conecta a Ollama y consume su REST API. El backend está construido con Express.js, y el frontend proporciona la capacidad de elegir entre diferentes modelos de IA para diversas tareas.
 
+![Captura de Pantalla 1](./capturas.PNG)
+
 Características Principales
 Backend con Express.js: El servidor backend está desarrollado con Express.js, proporcionando una arquitectura sólida y manejable para manejar solicitudes y respuestas.
 
